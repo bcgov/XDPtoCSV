@@ -1,0 +1,30 @@
+Field,Label,Type,Speak,Items,Group Binding,Field Binding,Group Name,Is Repeater,Forms
+changeyes,,checkButton,,,,$.FormInstance.String01,,no,HR3037.xdp
+changeyes,,checkButton,,,,$.FormInstance.String03,,no,HR3037.xdp
+citytown,City,textEdit,,,,,,no,HR3037.xdp
+citytown,City,textEdit,,,,$.FormInstance.String20,landlordsub,no,HR3037.xdp
+clientname,Your First Name,textEdit,,,,$.FormInstance.ListOfContact.Contact.FirstName,clientInfoSub,no,HR3037.xdp
+clientname,Your Middle Name,textEdit,,,,$.FormInstance.ListOfContact.Contact.MiddleName,clientInfoSub,no,HR3037.xdp
+clientname,Your Last Name,textEdit,,,,$.FormInstance.ListOfContact.Contact.LastName,clientInfoSub,no,HR3037.xdp
+date,Birthdate (YYYY-MMM-DD),dateTimeEdit,,,,$.FormInstance.ListOfContact.Contact.BirthDate,clientInfoSub,no,HR3037.xdp
+DateField1,Today's Date,dateTimeEdit,,,,,,no,HR3037.xdp
+mailingaddress,Mailing Address (if different from street address),textEdit,,,,,,no,HR3037.xdp
+mailingaddress,Other Shelter Costs,textEdit,,,,,type,no,HR3037.xdp
+monthlyrent,$,textEdit,,,,$.FormInstance.String05,,no,HR3037.xdp
+nameRegisteredOwner,,textEdit,,,,$.FormInstance.String15,landlordsub,no,HR3037.xdp
+officeuseonly,(For Office Use Only) Case Number ,textEdit,,,,$.FormInstance.ListOfCase.Case.CaseNum,,no,HR3037.xdp
+officeuseonly,(For Office Use Only) Service Request Number,textEdit,,,,$.FormInstance.ListOfCase.Case.ListOfServiceRequest.ServiceRequest.SRNumber,,no,HR3037.xdp
+perMonthAmount,$,textEdit,,,,,,no,HR3037.xdp
+phoneNumber,Your Phone Number,textEdit,,,,,,no,HR3037.xdp
+phoneNumber,Phone Number,textEdit,,,,$.FormInstance.String17,landlordsub,no,HR3037.xdp
+postalcode,Postal Code,textEdit,,,,,,no,HR3037.xdp
+postalcode,Postal Code,textEdit,,,,$.FormInstance.String21,landlordsub,no,HR3037.xdp
+securityDeposit,,textEdit,,,,,utilscheck,no,HR3037.xdp
+securityDeposit,$,textEdit,,,,$.FormInstance.String12,secdep,no,HR3037.xdp
+securityDeposit,$,textEdit,,,,$.FormInstance.String14,secdep,no,HR3037.xdp
+SignatureField1,Your Signature,signature,,,,,,no,HR3037.xdp
+startdate,Rental Start Date (YYYY-MMM-DD),dateTimeEdit,,,,,,no,HR3037.xdp
+streetaddress,Street Address,textEdit,,,,,,no,HR3037.xdp
+streetaddress,"Street Address of your Landlord, Property Manager or CLBC Home Share Provider",textEdit,,,,$.FormInstance.String19,landlordsub,no,HR3037.xdp
+suiteno,Unit #,textEdit,,,,,,no,HR3037.xdp
+suiteno,Unit #,textEdit,,,,$.FormInstance.String18,landlordsub,no,HR3037.xdp

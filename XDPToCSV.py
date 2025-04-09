@@ -48,7 +48,7 @@ for file_name in os.listdir(folder_path):
                 
                 # get field type
                 type_text = ''
-                for tag in ['textEdit', 'checkButton', 'choiceList', 'numericEdit', 'button', 'barcode', 'dateTimeEdit']:
+                for tag in ['textEdit', 'checkButton', 'choiceList', 'numericEdit', 'button', 'barcode', 'dateTimeEdit', 'signature']:
                     if field.find(f'.//xfa:{tag}', namespace) is not None:
                         type_text = tag
                         break
@@ -63,9 +63,7 @@ for file_name in os.listdir(folder_path):
                 if items is not None:
                     for item in items.findall('.//xfa:text', namespace):
                         if item.text is not None: 
-                            item_texts.append(item.text) 
-
-                #item_texts = [item.text for item in items.findall('.//xfa:text', namespace)] if items is not None else []
+                            item_texts.append(item.text)
                 
                 # group name
                 group_name = subform.get('name','')
